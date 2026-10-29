@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-terracotta-50: #faf1ee;
+  --color-terracotta-100: #f6e2dd;
+  --color-terracotta-200: #ecc5bc;
+  --color-terracotta-500: #c25a3f;
+  --color-terracotta-600: #ad4c32;
+  --color-terracotta-700: #913a23;
+  
+  --color-earth-50: #fbfbf9;
+  --color-earth-100: #f7f5f0;
+  --color-earth-200: #edf0e6;
+  --color-earth-300: #e2e4dc;
+  --color-earth-800: #332f2b;
+  --color-earth-900: #252220;
+
+  --color-sage-50: #f1f5f2;
+  --color-sage-100: #e0e9e2;
+  --color-sage-500: #4d7c59;
+  --color-sage-600: #3d6648;
+  --color-sage-700: #2e5037;
+}
+
+body {
+  background-color: var(--color-earth-50);
+  color: var(--color-earth-900);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar and subtle enhancements */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-earth-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-earth-300);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-terracotta-200);
+}

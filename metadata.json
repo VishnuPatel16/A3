@@ -1,0 +1,6 @@
+{
+  "name": "Mitti Rasoi - Indian Restaurant & Staff Manager",
+  "description": "A warm, natural-themed restaurant management app tailored for Indian eateries, featuring Admin and Employee login, payroll tracker, grocery inventory alerts, and interactive attendance logs with direct feedback systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
